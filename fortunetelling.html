@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的第一个 Codex 项目</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>你好，我是 Codex Demo</h1>
+    <p>这是我用来学习 OpenAI Codex 的第一个 GitHub 项目。</p>
+    <button id="helloButton">点击我</button>
+    <p id="message"></p>
+  </main>
+
+  <script>
+    const button = document.getElementById("helloButton");
+    const message = document.getElementById("message");
+
+    button.addEventListener("click", function () {
+      message.textContent = "你已经成功运行了第一个网页项目！";
+    });
+  </script>
+</body>
+</html>
